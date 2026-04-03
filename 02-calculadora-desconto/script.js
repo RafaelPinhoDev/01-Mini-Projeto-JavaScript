@@ -23,23 +23,23 @@ function limparCampos(){
 
 function calcularDesconto(){
     // Calculo Porcentagem: resultado <- (valor * percentual) / 100
-    const preco = document.getElementById('preco')
-    const desconto = document.getElementById('desconto')
+    const preco = Number(document.getElementById('preco').value)
+    const desconto = Number(document.getElementById('desconto').value)
     const resultado = document.getElementById('resultado')
 
 
     // Calculo do novo preço
-    const precoDesconto = (preco.value * desconto.value) / 100
-    const novoPreco = preco.value - precoDesconto
-    resultado.textContent = `Valor economizado: R$ ${novoPreco.toFixed(1)}`
+    const precoDesconto = (preco * desconto) / 100
+    const novoPreco = preco - precoDesconto
+    resultado.textContent = `Preço com desconto: R$ ${novoPreco.toFixed(1)}`
 
 
-    if (porcentagem < 5){
+    if (desconto < 5){
         removerClasses()
         resultado.classList.add("abaixo-cinco")
         
 
-    }else if(porcentagem >=5 && porcentagem <= 10) {
+    }else if(desconto >=5 && desconto <= 10) {
         removerClasses()
         resultado.classList.add("cinco-dez")
 
@@ -51,9 +51,6 @@ function calcularDesconto(){
     }
    
     
-    //   - Até 5% → `#14532d` resultado.abaixo-cinco
-//   - Entre 5% e 10% → `#713f12` resultado.cinco-dez
-//   - Acima de 10% → `#7f1d1d` resultado.acima-dez
-// 
+
 }
 
