@@ -1,5 +1,17 @@
 'use strict'
 
+function limparCampos(){
+
+    const tempo = document.getElementById('tempo')
+    const resultado = document.getElementById('resultado')
+
+    tempo.value = ''
+    resultado.textContent = ''
+
+    removerClasses()
+}
+
+
 // Limpa as classes do HTML
 function removerClasses(){
 

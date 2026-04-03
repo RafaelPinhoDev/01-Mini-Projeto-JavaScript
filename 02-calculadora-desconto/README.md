@@ -1,20 +1,7 @@
-# Tutorial 
+# CALCULADORA IMC
 
-## 1.Passo: Crie as classes no CSS 
+## Resultados esperados:
 
-```css
-
-/* Serão usadas para modificar as cores do resultado */
-.resultado.abaixo-cinco{
-  background-color: #14532d ;
-}
-
-.resultado.cinco-dez{
-  background-color: #713f12 ;
-}
-
-.resultado.acima-dez{
-  background-color: #7f1d1d; 
-}
-
-```
+- Até 5% de desconto → resultado (verde)
+- 5% a 10% de desconto → resultado (amarelo)
+- Acima de 10% de desconto → resultado (vermelho)
