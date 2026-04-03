@@ -1,10 +1,17 @@
 # Mini Projeto JavaScript 01
 
-Conjunto de 4 mini projetos práticos para exercitar os fundamentos de **JavaScript**.
+Conjunto de 4 mini projetos práticos para exercitar os fundamentos de **JavaScript**
 
 ## Objetivo
 
-Praticar conceitos essenciais de JavaScript resolvendo problemas do dia a dia, onde o aluno recebe o HTML e CSS prontos e precisa implementar apenas a lógica em JS.
+Praticar conceitos essenciais de JavaScript resolvendo problemas do dia a dia, onde o HTML e CSS já vem prontos e é necessário implementar apenas a lógica em JS.
+
+## Lista de Projetos
+
+- Teste de Aptidão Física
+- Calculadora de Desconto
+- Calculadora de Média
+- Calculadora IMC
 
 ## O que foi utilizado
 
