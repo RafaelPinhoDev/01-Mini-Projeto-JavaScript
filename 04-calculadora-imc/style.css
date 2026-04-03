@@ -111,6 +111,7 @@ button:hover {
   border: 1px solid #374151;
   align-items: center;
   justify-content: center;
+  margin-top: 1em;
 }
 
 /* Resultados */
